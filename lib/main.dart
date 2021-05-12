@@ -12,7 +12,7 @@ void main() {
     /// can use [MyApp] while mocking the providers
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => Data()),
+        ChangeNotifierProvider(create: (_) => TaskData()),
       ],
       child: MyApp(),
     ),
